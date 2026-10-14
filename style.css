@@ -52,10 +52,9 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background: #4a5f7c;
+.equals:hover {
+    background: #9ab4ff;
 }
-
 .clear {
   background: #d95d68;
 }
