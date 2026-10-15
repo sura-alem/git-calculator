@@ -36,8 +36,12 @@ document.addEventListener("keydown", function (event) {
     } else if (key === "Backspace") {
         display.value = display.value.slice(0, -1) || "0";
     }
+<<<<<<< HEAD
 });
 
+=======
+})
+>>>>>>> feature/dark-mode
 const themeToggle = document.getElementById("themeToggle");
 
 themeToggle.addEventListener("click", function () {
@@ -48,4 +52,8 @@ themeToggle.addEventListener("click", function () {
     } else {
         themeToggle.textContent = "Switch to Dark Mode";
     }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> feature/dark-mode
